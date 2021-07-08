@@ -1,0 +1,145 @@
+[
+    {
+        "id": 0,
+        "title": "Education",
+        "company": "Silesian University of Technology in Gliwice (Poland)",
+        "time": "2020-03 - now",
+        "description": [
+            "Faculty of Mechanical Engineering",
+            "Automation and Robotics"
+        ],
+        "degree": "Master of Engineering"
+    },
+    {
+        "id": 1,
+        "title": "Education",
+        "company": "Silesian University of Technology in Gliwice (Poland)",
+        "time": "2016-10 - 2020-02",
+        "description": [
+            "Faculty of Mechanical Engineering",
+            "Automation and Robotics"
+        ],
+        "degree": "Bachelor of Engineering"
+    },
+    {
+        "id": 2,
+        "title": "Experience",
+        "company": "RW Swiss Automation - Robotic Enginner",
+        "time": "2019-09 - 2020-05",
+        "description": [
+            "Knowledge of Process Simulate (creating WEST zones)",
+            "Knowledge of Robcad",
+            "Creating technical documentation",
+            "Creating robot removal concept",
+            "Knowledge Opel standard (project Opel OV512 Rüsselsheim)"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Experience",
+        "company": "UPC Polska - Technical Support Enginner",
+        "time": "2017-10 - 2019-08",
+        "description": [
+            "Change of IPV4 / IPV6 protocols",
+            "Wifi network channel analysis (CDM Program)",
+            "Signal jump analysis in ServAssure Advanced",
+            "Verification of the correctness of configuration files",
+            "Creating technical documentation",
+            "Contact with the customer"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Additional activities",
+        "club": [
+            "Science club:",
+            "AI-METH Silesian Phoenix"
+        ],
+        "time": [
+            "The team built a Mars Rover at the",
+            "Silesian University of Technology in 2019"
+        ],
+        "description": [
+            "International Mars Rover Competition",
+            "ERC 2019"
+        ],
+        "tasksTitle": "My tasks in the team:",
+        "tasks": [
+            "3D Modeling",
+            "Programing",
+            "Mechanics"
+        ]
+    },
+    {
+
+        "id": 5,
+        "title": "Skills",
+        "titleSkills":[
+            "Industrial",
+            "Programing",
+            "Language",
+            "Other..."
+        ],
+        "Industial": [
+            "Autodesk Inventor",
+            "3D Printing",
+            "Process Simulate",
+            "Autodesk AutoCad",
+            "Robcad"
+        ],
+        "Programing": [
+            "Visual Studio Code",
+            "TailwindCSS",
+            "C++",
+            "JavaScript",
+            "React.js",
+            "HTML5 / CSS3",
+            "SQL",
+            "RWD",
+            "Git",
+            "Bootstrap"
+        ],
+        "Language": [
+            "Polish",
+            "English",
+            "Italian",
+            "German"
+        ],
+        "Other": [
+            "Adobe Premier Pro",
+            "Sony Vegas",
+            "MS Office Package",
+            "Gimp",
+            "Adobe XD",
+            "Driving Licence"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Interests",
+        "interests": [
+            "Modern technology",
+            "Artificial intelligence",
+            "Programming languages",
+            "Electronics (Arduino, Raspberry Pi)",
+            "Business analytics",
+            "Psychology",
+            "Reading books",
+            "Physical activity",
+            "3D Printing",
+            "Travels",
+            "Dancing"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Contact",
+        "email": "Bobrowski.Kamil96@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/kamil-bobrowski-a8a276193"
+    },
+    {
+        "id": 8,
+        "quort": "I always do what I can't, so I can figure out how to do it",
+        "author": "Pablo Picasso"
+    }
+]

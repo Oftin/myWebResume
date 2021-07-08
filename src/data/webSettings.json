@@ -1,0 +1,10 @@
+[
+    {
+        "id": 0,
+        "settingMainWebSite": "min-h-screen flex items-center",
+        "fontOnSite": "flex-1 max-w-6xl mx-auto shadow-2xl space-y-20",
+        "blueTitle": "font-bold text-3xl text-blue-400 font-mono-400",
+        "orangeBar": "border-solid h-1 bg-yellow-500 border-yellow-500",
+        "contentSection": "p-20 ml-4 text-md text-bold"
+    }
+]
