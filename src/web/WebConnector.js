@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-//import WebSettings from '../data/webSettings.json';
 import { HeaderConnector } from '../header/HeaderConnector';
 import { MainConnector } from '../main/MainConnector';
 import { FooterConnector } from '../footer/FooterConnector';

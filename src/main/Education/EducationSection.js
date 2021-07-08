@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import WebSettings from '../../data/webSettings.json';
 import ED_FC_ANIMATION_TITLE from './ED_FunctionComponent/ED_FC_ANIMATION_TITLE';
 import ED_FC_ANIMATION_MASTER_UNIVERSITY_IMG from './ED_FunctionComponent/ED_FC_ANIMATION_MASTER_UNIVERSITY_IMG';
 import ED_FC_ANIMATION_MASTER_UNIVERSITY_INFO from './ED_FunctionComponent/ED_FC_ANIMATION_MASTER_UNIVERSITY_INFO';
@@ -10,13 +9,12 @@ import ED_FC_ANIMATION_ENGINEER_UNIVERSITY_IMG from './ED_FunctionComponent/ED_F
 import ED_FC_ANIMATION_ENGINEER_UNIVERSITY_INFO from './ED_FunctionComponent/ED_FC_ANIMATION_ENGINEER_UNIVERSITY_INFO';
 import ED_FC_ANIMATION_ENGINEER_PROJECT from './ED_FunctionComponent/ED_FC_ANIMATION_ENGINEER_PROJECT';
 import ED_FC_ANIMATION_ENGINEER_PROJECT_INFO from './ED_FunctionComponent/ED_FC_ANIMATION_ENGINEER_PROJECT_INFO';
-
 export class EducationSection extends Component {
     render() {
         return (
             <Fragment>
                     <ED_FC_ANIMATION_TITLE />
-                    <div className={ WebSettings[0].contentSection }>
+                    <div className='p-20 ml-4 text-md text-bold'>
                         <div className='my-20 mt-0'>
                             <div className='grid grid-cols-5 grid-flow-col gap-2'>
                                 <div className='col-start-1 col-span-2'>

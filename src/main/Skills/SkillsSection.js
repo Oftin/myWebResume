@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import Data from '../../data/data.json';
-import WebSettings from '../../data/webSettings.json';
 import S_FC_ANIMATION_TITLE from './S_FunctionComponent/S_FC_ANIMATION_TITLE'
 import S_FC_CREATE_SKILLS_BALLS from './S_FunctionComponent/S_FC_CREATE_SKILLS_BALLS';
 
@@ -14,7 +13,7 @@ export class SkillsSection extends Component {
             <Fragment>
                 <div>
                     <S_FC_ANIMATION_TITLE />
-                    <div className={ WebSettings[0].contentSection }>
+                    <div className='p-20 ml-4 text-md text-bold'>
                         <div className='grid grid-cols-4 grid-flow-col gap-4'>
                             <div className='col-start-1 col-end-1 space-y-1 mb-20' data-aos='fade' data-aos-offset='400' data-aos-duration='1000' data-aos-delay='1000' >
                                 <div className={ `${titleSkills} row-start-1 row-end-1` }>{ Data[5].titleSkills[0] }</div>

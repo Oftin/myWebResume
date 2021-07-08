@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import WebSettings from '../../data/webSettings.json';
 import EX_FC_ANIMATION_TITLE from './EX_FunctionComponent/EX_FC_ANIMATION_TITLE'
 import EX_FC_ANIMATION_RW_TIME from './EX_FunctionComponent/EX_FC_ANIMATION_RW_TIME';
 import EX_FC_ANIMATION_RW_COMPANY from './EX_FunctionComponent/EX_FC_ANIMATION_RW_COMPANY';
@@ -15,7 +14,7 @@ export class ExperienceSection extends Component {
         return (
             <Fragment>
                 <EX_FC_ANIMATION_TITLE />
-                <div className={ WebSettings[0].contentSection }>
+                <div className='p-20 ml-4 text-md text-bold'>
                     <div className='grid grid-cols-5 gap-2 relative p-10'>
                         <div className='flex justify-end col-start-1 col-end-1 relative right-16 font-bold text-coolGray-500'>
                             <EX_FC_ANIMATION_RW_TIME />
