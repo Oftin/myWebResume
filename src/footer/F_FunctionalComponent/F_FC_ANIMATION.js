@@ -8,7 +8,7 @@ const F_FC_ANIMATION = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='500' className='sm:w-screen md:w-screen ld:w-max'>
+            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='500' className='sm:hidden md:block md:w-screen ld:w-max'>
                 <svg height='200' width='1152'>
                     <path d='M 0 50 C 100 125 150 125 350 75 C 409 60 488 100 607 120 C 759 150 878 50 1151 0 L 1152 200 L 0 200' stroke='#60A5FB' fill='#60A5FB'/>
                 </svg>
