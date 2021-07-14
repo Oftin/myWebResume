@@ -7,12 +7,12 @@ export class WebConnector extends Component {
     render() {
         return (
             <Fragment>
-                <div className='min-h-screen flex items-center'>
-                    <div className='flex-1 max-w-6xl mx-auto shadow-2xl space-y-20'>
-                        <header className='p-2'>
+                <div className='min-h-screen flex items-center overflow-hidden'>
+                    <div className='flex-1 ld:max-w-6xl mx-auto ld:shadow-2xl space-y-20'>
+                        <header className='ld:p-2'>
                             <HeaderConnector />
                         </header>
-                        <main className='px-10'>
+                        <main className='p-10'>
                             <MainConnector />
                         </main>
                         <footer>

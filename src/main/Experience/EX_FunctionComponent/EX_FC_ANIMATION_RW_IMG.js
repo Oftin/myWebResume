@@ -9,7 +9,7 @@ const EX_FC_ANIMATION_RW_IMG = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade-left' data-aos-offset='350' data-aos-duration='1000' data-aos-delay='2000'>
+            <div data-aos='fade' data-aos-offset='350' data-aos-duration='1000' data-aos-delay='2000'>
                 <img className='row-start-1 row-span-1 h-40' src= { IndustryRobotIMG } alt=''/>
             </div>
         </Fragment>

@@ -10,7 +10,7 @@ const ED_FC_ANIMATION_ENGINEER_PROJECT = () => {
     return (
         <Fragment>
             <div className='col-start-1 col-end-1 mb-5 flex justify-center' data-aos='fade' data-aos-duration='750' data-aos-delay='1500'>
-                <div className='col-start-1 col-end-1 flex justify-center'>
+                <div className='col-start-1 col-end-1 flex justify-center sm:-ml-4 md:ml-0'>
                     <ReactPlayer url='https://www.youtube.com/watch?v=V4SdvO030xA' />
                 </div>
             </div>

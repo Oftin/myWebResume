@@ -8,7 +8,7 @@ export class InterestsSection extends Component {
             <Fragment>
                 <div>
                     <I_FC_ANIMATION_TITLE />
-                    <div className='p-20 ml-4 text-md text-bold'>
+                    <div className='py-20 md:p-20 ml-4 text-md text-bold'>
                         <I_FC_ANIMATION_IMAGE_INTERESTS />
                     </div>
                 </div>

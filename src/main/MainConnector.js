@@ -7,7 +7,7 @@ import { InterestsSection } from './Interests/InterestsSection';
 import { ContactSection } from './Contact/ContactSection';
 
 export class MainConnector extends Component {
-    render(){
+    render() {
         return (
             <Fragment>
                 <EducationSection />
