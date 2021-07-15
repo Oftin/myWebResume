@@ -9,11 +9,11 @@ const ED_FC_ANIMATION_MASTER_UNIVERSITY_INFO = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade-left' data-aos-offset='350' data-aos-duration='1000' data-aos-delay='1000'>
-                <div className='text-xl font-bold text-coolGray-500'>{ Data[0].company }</div>
-                <div className='text-coolGray-500 font-mono-400 mt-4'>{ Data[0].description[0] }</div>
+            <div data-aos='fade-left' data-aos-offset='350' data-aos-duration='1000' data-aos-delay='1000' className='text-xs sm:text-xl'>
+                <div className='text-sm sm:text-xl font-bold text-coolGray-500'>{ Data[0].company }</div>
+                <div className='text-coolGray-500 font-mono-400 mt-2 sm:mt-4'>{ Data[0].description[0] }</div>
                 <div className='text-coolGray-500 font-mono-400'>{ Data[0].description[1] }</div>
-                <div className='text-coolGray-500 mt-2'>{ Data[0].degree }</div>
+                <div className='text-coolGray-500 mt-2 sm:mt-4'>{ Data[0].degree }</div>
                 <div className='text-coolGray-500'>{ Data[0].time }</div>
             </div>
         </Fragment>

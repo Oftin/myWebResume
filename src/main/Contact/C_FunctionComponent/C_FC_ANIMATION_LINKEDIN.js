@@ -10,7 +10,7 @@ const C_FC_ANIMATION_LINKEDIN = () => {
     return (
         <Fragment>
             <div data-aos='fade-right' data-aos-duration='1000' data-aos-delay='2500'>
-                <img src={ linkedin } alt='' className='cursor-pointer h-10 w-auto'/>
+                <img src={ linkedin } alt='' className='cursor-pointer h-6 sm:h-10 w-auto -mt-12 sm:mt-0'/>
             </div>
         </Fragment>
     );

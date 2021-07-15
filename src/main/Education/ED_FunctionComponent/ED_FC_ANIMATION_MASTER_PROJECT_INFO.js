@@ -9,7 +9,7 @@ const ED_FC_ANIMATION_MASTER_PROJECT_INFO = () => {
     return (
         <Fragment>
             <div data-aos='fade-up' data-aos-duration='750' data-aos-delay='2000'>
-                <div className='row-start-2 row-end-2 text-coolGray-500'>Master degree project</div>
+                <div className='text-xs sm:text-base row-start-2 row-end-2 text-coolGray-500'>Master degree project</div>
             </div>
         </Fragment>
     );

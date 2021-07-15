@@ -8,7 +8,7 @@ module.exports = {
         'public/**/*.html',
       ]
     },
-    darkMode: 'class', // or 'media' or 'class'
+    darkMode: false, // or 'media' or 'class'
     theme: {
       borderRadius: {
         'none': '0',
@@ -31,8 +31,8 @@ module.exports = {
         '100': '1',
       },
       screens: {
-        'sm': '640px',    // => @media 'tablet' (min-width: 640px) { ... }
-        'md': '1024px',   // => @media 'laptop' (min-width: 1024px) { ... }
+        'sm': '640px',   // => @media 'tablet' (min-width: 640px) { ... }
+        'md': '1024px',  // => @media 'laptop' (min-width: 1024px) { ... }
         'ld': '1280px',  // => @media 'desktop' (min-width: 1280px) { ... }
       },
       extend: {
@@ -56,11 +56,15 @@ module.exports = {
           11: '2.75rem',
           12: '3rem',
           14: '3.5rem',
+          15: '3.75rem',
           16: '4rem',
           18: '4.5rem',
+          19: '4.75rem',
           20: '5rem',
           22: '5.5rem',
           24: '6rem',
+          25: '6.25rem',
+          26: '6.5rem',
           27: '6.75rem',
           28: '7rem',
           30: '7.5rem',

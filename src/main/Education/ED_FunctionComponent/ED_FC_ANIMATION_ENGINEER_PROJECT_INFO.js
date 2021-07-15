@@ -9,7 +9,7 @@ const ED_FC_ANIMATION_ENGINEER_PROJECT_INFO = () => {
     return (
         <Fragment>
             <div data-aos='fade-up' data-aos-offset='0' data-aos-duration='750' data-aos-delay='2000'>
-                <div className='row-start-2 row-end-2 text-coolGray-500'>Engineering degree project</div>
+                <div className='text-xs sm:text-base row-start-2 row-end-2 text-coolGray-500'>Engineering degree project</div>
             </div>
         </Fragment>
     );
