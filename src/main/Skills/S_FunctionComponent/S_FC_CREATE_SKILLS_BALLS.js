@@ -16,7 +16,7 @@ const S_FC_CREATE_SKILLS_BALLS = ({ activeSkillBall, emptySkillBall, valueActive
 
     return (
         <Fragment>
-            <div className='flex sm:space-x-1 md:space-x-2'>
+            <div className='flex space-x-1 md:space-x-2'>
                 <div className={ componentResult }></div>
                 <div className={ componentResult }></div>
                 <div className={ componentResult }></div>

@@ -11,7 +11,7 @@ export class ContactSection extends Component {
             <Fragment>
                 <div>
                     <C_FC_ANIMATION_TITLE />
-                    <div className='grid grid-cols-3 place-items-center sm:mt-28 ld:mt-36 sm:mb-0 md:mb-10 ld:mb-20'>
+                    <div className='grid grid-cols-3 place-items-center mt-28 ld:mt-36 mb-0 md:mb-10 ld:mb-20'>
                         <div className='col-start-1 col-span-3'>
                             <div className='row-start-1 row-end-1 mb-20 flex justify-center italic font-normal text-xl'>
                                 <C_FC_ANIMATION_WRITE />
