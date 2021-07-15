@@ -1,13 +1,15 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-    purge: [
-      './src/**/*.{js,jsx,ts,tsx}',
-      './public/index.html',
-      './components/**/*.{js,ts,jsx,tsx}',
-      './layout/**/*.{js,ts,jsx,tsx}',
-      './helpers/**/*.{js,ts,jsx,tsx}'
-    ],
+    purge: {
+      content: [
+        './src/**/*.{js,jsx,ts,tsx}',
+        './public/index.html',
+        './components/**/*.{js,ts,jsx,tsx}',
+        './layout/**/*.{js,ts,jsx,tsx}',
+        './helpers/**/*.{js,ts,jsx,tsx}'
+      ]
+    },
     darkMode: 'class', // or 'media' or 'class'
     theme: {
       borderRadius: {
