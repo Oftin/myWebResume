@@ -31,9 +31,11 @@ module.exports = {
         '100': '1',
       },
       screens: {
-        'sm': '640px',   // => @media 'tablet' (min-width: 640px) { ... }
-        'md': '1024px',  // => @media 'laptop' (min-width: 1024px) { ... }
-        'ld': '1280px',  // => @media 'desktop' (min-width: 1280px) { ... }
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       },
       extend: {
         spacing: {

@@ -9,7 +9,7 @@ const S_FC_ANIMATION_INDUSTRIAL_SKILLS = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos="fade-left" data-aos-offset='500' data-aos-duration="1000">
+            <div data-aos='fade-left' data-aos-duration='1000'>
                 <div className='row-start-2 row-end-2 font-semibold text-coolGray-500'>{ Data[5].Industial[0] }</div>
                 <div className='row-start-3 row-end-3 font-semibold text-coolGray-500'>{ Data[5].Industial[1] }</div>
                 <div className='row-start-4 row-end-4 font-semibold text-coolGray-500'>{ Data[5].Industial[2] }</div>

@@ -8,8 +8,8 @@ export class WebConnector extends Component {
         return (
             <Fragment>
                 <div className='min-h-screen flex items-center overflow-hidden'>
-                    <div className='flex-1 ld:max-w-6xl mx-auto ld:shadow-2xl space-y-20'>
-                        <header className='ld:p-2'>
+                    <div className='flex-1 lg:max-w-6xl mx-auto lg:shadow-2xl space-y-20'>
+                        <header className='lg:p-2'>
                             <HeaderConnector />
                         </header>
                         <main className='p-4 sm:p-10'>

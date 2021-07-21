@@ -8,13 +8,13 @@ export class AddictionalActivitiesSection extends Component {
         return (
             <Fragment>
                 <AA_FC_ANIMATION_TITLE />
-                <div className='py-10 md:p-20 ml-4 text-xs sm:text-base text-bold'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 grid-flow-col gap-4'>
-                        <div className='row-start-1 row-end-1 md:col-start-1 md:col-end-1 space-y-1 sm:-ml-5 md:ml-0'>
+                <div className='py-10 xl:p-20 text-xs sm:text-base text-bold'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 grid-flow-col gap-4 xl:gap-0'>
+                        <div className='row-start-1 row-end-1 lg:col-start-1 lg:col-end-1 space-y-1 m-auto'>
                             <AA_FC_ANIMATION_IMG />
                             <AA_FC_ANIMATION_IMG_INFO/>
                         </div>
-                        <div className='row-start-2 row-end-2 md:row-start-1 md:row-end-1 md:col-start-2 md:col-end-2 space-y-1 sm:pt-20 md:pt-6 font-semibold text-coolGray-400 mt-10 sm:mt-0 sm:-ml-5 md:ml-0 sm:mb-16 md:mb-0'>
+                        <div className='row-start-2 row-end-2 lg:row-start-1 lg:row-end-1 lg:col-start-2 lg:col-end-2 space-y-1 sm:pt-20 lg:pt-6 font-semibold text-coolGray-400 mt-10 sm:mt-0 sm:mb-16 lg:mb-0'>
                             <AA_FC_ANIMATION_INFO />
                         </div>
                     </div>

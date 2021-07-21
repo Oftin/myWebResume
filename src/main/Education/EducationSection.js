@@ -14,13 +14,13 @@ export class EducationSection extends Component {
         return (
             <Fragment>
                     <ED_FC_ANIMATION_TITLE />
-                    <div className='my-20 md:p-20 ml-4 sm:text-md text-bold'>
+                    <div className='pt-20 sm:pt-10 md:p-20 sm:text-md text-bold'>
                         <div className='sm:my-20 -mt-10 sm:mt-0'>
-                            <div className='pl-4 sm:pl-16 grid grid-cols-5 grid-flow-col gap-2'>
+                            <div className='grid grid-cols-7 grid-flow-col gap-2'>
                                 <div className='col-start-1 col-span-2'>
                                     <ED_FC_ANIMATION_MASTER_UNIVERSITY_IMG />
                                 </div>
-                                <div className='col-start-3 col-span-3 sm:mt-3 -ml-16'>
+                                <div className='col-start-3 col-span-5 sm:mt-3'>
                                     <ED_FC_ANIMATION_MASTER_UNIVERSITY_INFO />
                                 </div>
                             </div>
@@ -37,11 +37,11 @@ export class EducationSection extends Component {
                         <ED_FC_ANIMATION_SEPARATOR_LINE />
 
                         <div className='mt-10 sm:mt-22'>
-                            <div className='pl-4 sm:pl-16 sm:mt-0 grid grid-cols-5 grid-flow-col gap-2'>
+                            <div className='sm:mt-0 grid grid-cols-7 grid-flow-col gap-2'>
                                 <div className='col-start-1 col-span-2'>
                                     <ED_FC_ANIMATION_ENGINEER_UNIVERSITY_IMG />
                                 </div>
-                                <div className='col-start-3 col-span-3 sm:mt-3 -ml-16'>
+                                <div className='col-start-3 col-span-5 sm:mt-3'>
                                     <ED_FC_ANIMATION_ENGINEER_UNIVERSITY_INFO />
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ export class EducationSection extends Component {
                                 <ED_FC_ANIMATION_ENGINEER_PROJECT />
                             </div>
                             <div className='grid grid-cols-1 grid-flow-col gap-4 sm:mt-4'>
-                                <div className='col-start-1 col-end-1 mb-5 -mt-24 sm:-mt-8 md:-mt-4 flex justify-center'>
+                                <div className='col-start-1 col-end-1 -mt-24 sm:-mt-8 md:-mt-4 flex justify-center'>
                                     <ED_FC_ANIMATION_ENGINEER_PROJECT_INFO />
                                 </div>
                             </div>

@@ -9,7 +9,7 @@ const AA_FC_ANIMATION_IMG = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-offset='350' data-aos-duration='1000' data-aos-delay='500' >
+            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='500' >
                 <img src={ marsRover } alt='' className='flex justify-center rounded-lg md:h-70'/>
             </div>
         </Fragment>

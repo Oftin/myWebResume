@@ -9,7 +9,7 @@ const I_FC_ANIMATION_IMAGE_INTERESTS = () => {
     }, []);
     return (
         <Fragment>
-            <img data-aos='fade-up' data-aos-offset='350' data-aos-duration='1000' data-aos-delay='1000' className='relative z-0' src={ InterestingIMG } alt=''/>
+            <img data-aos='fade-up' data-aos-duration='1000' data-aos-delay='1000' className='relative z-0' src={ InterestingIMG } alt=''/>
         </Fragment>
     );
 };

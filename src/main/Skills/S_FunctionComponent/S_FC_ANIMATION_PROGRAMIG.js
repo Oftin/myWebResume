@@ -10,7 +10,7 @@ const S_FC_ANIMATION_TITLE = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos="fade-left" data-aos-offset='500' data-aos-duration="1000">
+            <div data-aos='fade-left' data-aos-duration='1000'>
                 <div className={ WebSettings[0].blueTitle }>{ Data[5].title }</div>
                 <div className={ `${WebSettings[0].orangeBar} w-18` }></div>
             </div>

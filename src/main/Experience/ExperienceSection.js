@@ -14,32 +14,32 @@ export class ExperienceSection extends Component {
         return (
             <Fragment>
                 <EX_FC_ANIMATION_TITLE />
-                <div className='py-10 ld:p-20 ml-4 text-xs sm:text-base text-bold'>
-                    <div className='grid grid-cols-4 ld:grid-cols-5 gap-2 -ml-4 sm:ml-0 sm:gap-x-10 sm:gap-y-4 md:gap-2 relative p-10'>
-                        <div className='flex justify-end col-start-1 col-end-1 relative -ml-5 sm:-ml-14 md:pr-8 ld:pr-0 ld:ml-0 ld:right-16 font-bold text-coolGray-500'>
+                <div className='lg:p-20 text-xs sm:text-base text-bold m-auto'>
+                    <div className='grid grid-cols-9 md:grid-cols-7 lg:grid-cols-5 xl:grid-cols-4 gap-2 sm:gap-x-4 relative pt-10 pb-6'>
+                        <div className='flex col-start-1 col-span-2 lg:col-start-1 lg:col-end-1 relative font-bold text-coolGray-500 text-center m-auto'>
                             <EX_FC_ANIMATION_RW_TIME />
                         </div>
-                        <div className='col-start-2 col-span-3 text-base sm:text-xl font-bold -mt-1 sm:mt-0 text-coolGray-500'>
+                        <div className='col-start-3 col-span-7 md:col-span-5 lg:col-start-2 lg:col-span-3 xl:col-start-2 xl:col-span-2 text-base sm:text-xl font-bold text-coolGray-500'>
                             <EX_FC_ANIMATION_RW_COMPANY />
                         </div>
-                        <div className='col-start-2 col-span-3 text-coolGray-500 -ml-2 sm:ml-0'>
+                        <div className='col-start-3 col-span-7 md:col-span-5 lg:col-start-2 lg:col-span-3 xl:col-start-2 xl:col-span-2 text-coolGray-500'>
                             <EX_FC_ANIMATION_RW_INFO />
                         </div>
-                        <div className='row-start-2 row-end-2 md:col-start-5 md:col-end-5 -ml-6 sm:-ml-10 mt-6 sm:mt-2 md:-ml-0 md:mr-4 md:-mt-6 ld:-mt-9 ld:mr-0 ld:ml-0'>
+                        <div className='row-start-2 row-end-2 lg:row-start-1 lg:row-span-2 lg:col-start-5 lg:col-end-5 xl:col-start-4 xl:col-end-4 col-start-1 col-span-2 m-auto items-center'>
                             <EX_FC_ANIMATION_RW_IMG />
                         </div>
                     </div>
-                    <div className='grid grid-cols-4 ld:grid-cols-5 gap-2 -ml-4 sm:ml-0 sm:gap-x-10 sm:gap-y-4 md:gap-2 relative p-10'>
-                        <div className='flex justify-end col-start-1 col-end-1 relative -ml-5 sm:-ml-14 md:pr-8 ld:pr-0 ld:ml-0 ld:right-16 font-bold text-coolGray-500'>
+                    <div className='grid grid-cols-9 md:grid-cols-7 lg:grid-cols-5 xl:grid-cols-4 gap-2 sm:gap-x-4 relative pt-6 pb-16'>
+                        <div className='flex col-start-1 col-span-2 lg:col-start-1 lg:col-end-1 relative font-bold text-coolGray-500 text-center m-auto'>
                             <EX_FC_ANIMATION_UPC_TIME />
                         </div>
-                        <div className='col-start-2 col-span-3 text-base sm:text-xl font-bold -mt-1 sm:mt-0 text-coolGray-500'>
+                        <div className='col-start-3 col-span-7 md:col-span-5 lg:col-start-2 lg:col-span-3 xl:col-start-2 xl:col-span-2 text-base sm:text-xl font-bold text-coolGray-500'>
                             <EX_FC_ANIMATION_UPC_COMPANY />
                         </div>
-                        <div className='col-start-2 col-span-3 text-coolGray-500 -ml-2 sm:ml-0'>
+                        <div className='col-start-3 col-span-7 md:col-span-5 lg:col-start-2 lg:col-span-3 xl:col-start-2 xl:col-span-2 text-coolGray-500'>
                             <EX_FC_ANIMATION_UPC_INFO />
                         </div>
-                        <div className='row-start-2 row-end-2 md:col-start-5 md:col-end-5 -ml-6 sm:-ml-10 mt-6 sm:mt-2 md:-ml-0 md:mr-4 md:-mt-6 ld:-mt-9 ld:mr-0 ld:ml-0'>
+                        <div className='row-start-2 row-end-2 lg:row-start-1 lg:row-span-2 lg:col-start-5 lg:col-end-5 xl:col-start-4 xl:col-end-4 col-start-1 col-span-2 m-auto items-center'>
                             <EX_FC_ANIMATION_UPC_IMG />
                         </div>
                     </div>

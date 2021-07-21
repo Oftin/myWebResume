@@ -1,27 +1,22 @@
 import React, { Fragment } from 'react';
 
-const S_FC_CREATE_SKILLS_BALLS = ({ activeSkillBall, emptySkillBall, valueActive, valueEmpty }) => {
+const S_FC_CREATE_SKILLS_BALLS = ({ activeSkillBall, emptySkillBall, valueActive }) => {
 
-    let componentResult;
+    let componentResult = [emptySkillBall, emptySkillBall, emptySkillBall, emptySkillBall, emptySkillBall];
+    const activeSteps = valueActive;
 
-    if ( valueActive > 0 ) {
-        if (valueActive === 5) {
-            componentResult = activeSkillBall;
-        } else {
-
-        }
-    } else {
-        componentResult = emptySkillBall;
+    for (let i = 0; i < activeSteps; i++) {
+        componentResult[i] = activeSkillBall;
     }
 
     return (
         <Fragment>
             <div className='flex space-x-1 md:space-x-2'>
-                <div className={ componentResult }></div>
-                <div className={ componentResult }></div>
-                <div className={ componentResult }></div>
-                <div className={ componentResult }></div>
-                <div className={ componentResult }></div>
+                <div className={ componentResult[0] }></div>
+                <div className={ componentResult[1] }></div>
+                <div className={ componentResult[2] }></div>
+                <div className={ componentResult[3] }></div>
+                <div className={ componentResult[4] }></div>
             </div>
         </Fragment>
     );
