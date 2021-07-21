@@ -15,7 +15,7 @@ export class SkillsSection extends Component {
                     <S_FC_ANIMATION_TITLE />
                     <div className='py-20 -px-0 -mt-10 sm:mt-0 text-xs sm:text-sm md:text-base text-bold'>
                         <div className='grid grid-row-2 sm:grid-cols-4 grid-flow-col gap-0 sm:gap-x-4 sm:gap-y-2'>
-                            <div className='col-start-1 col-end-1 row-star-1 row-end-1 space-y-2 md:space-y-1 mb-20 m-auto' data-aos='fade' data-aos-duration='1000' data-aos-delay='1000' >
+                            <div className='col-start-1 col-end-1 row-star-1 row-end-1 space-y-2 md:space-y-1 mb-20 m-auto' data-aos='fade' data-aos-duration='1000' data-aos-delay='250' >
                                 <div className={ `${titleSkills} row-start-1 row-end-1` }>{ Data[5].titleSkills[0] }</div>
                                 <div className='row-start-2 row-end-2 font-semibold text-coolGray-500'>{ Data[5].Industial[0] }</div>
                                 <div className='row-start-3 row-end-3 font-semibold text-coolGray-500'>{ Data[5].Industial[1] }</div>
@@ -23,7 +23,7 @@ export class SkillsSection extends Component {
                                 <div className='row-start-5 row-end-5 font-semibold text-coolGray-500'>{ Data[5].Industial[3] }</div>
                                 <div className='row-start-6 row-end-6 font-semibold text-coolGray-500'>{ Data[5].Industial[4] }</div>
                             </div>
-                            <div className='col-start-2 col-end-2 row-star-1 row-end-1 sm:pt-2 space-y-2 mt-11 m-auto' data-aos='fade' data-aos-duration='1000' data-aos-delay='1000' >
+                            <div className='col-start-2 col-end-2 row-star-1 row-end-1 sm:pt-2 space-y-2 mt-11 m-auto' data-aos='fade' data-aos-duration='1000' data-aos-delay='250' >
                                 <div className='row-start-2 row-end-2 flex space-x-1 md:space-x-2'>
                                     <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 4 } />
                                 </div>
@@ -41,7 +41,7 @@ export class SkillsSection extends Component {
                                 </div>
                             </div>
 
-                            <div className='col-start-1 col-end-1 row-star-2 row-end-2 space-y-2 md:space-y-1 m-auto' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='1500' >
+                            <div className='col-start-1 col-end-1 row-star-2 row-end-2 space-y-2 md:space-y-1 m-auto' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='500' >
                                 <div className={ `${titleSkills} row-start-7 row-end-7`}>{ Data[5].titleSkills[1] }</div>
                                 <div className='row-start-8 row-end-8 font-semibold text-coolGray-500'>{ Data[5].Programing[0] }</div>
                                 <div className='row-start-9 row-end-9 font-semibold text-coolGray-500'>{ Data[5].Programing[1] }</div>
@@ -54,7 +54,7 @@ export class SkillsSection extends Component {
                                 <div className='row-start-16 row-end-16 font-semibold text-coolGray-500'>{ Data[5].Programing[8] }</div>
                                 <div className='row-start-17 row-end-17 font-semibold text-coolGray-500'>{ Data[5].Programing[9] }</div>
                             </div>
-                            <div className='col-start-2 col-end-2 row-star-2 row-end-2 space-y-2 sm:pt-2 sm:mt-11 m-auto' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='1500' >
+                            <div className='col-start-2 col-end-2 row-star-2 row-end-2 space-y-2 sm:pt-2 sm:mt-11 m-auto' data-aos='fade-up' data-aos-duration='1000' data-aos-delay='500' >
                                 <div className='row-start-8 row-end-8 flex space-x-1 md:space-x-2 mt-11 sm:mt-0'>
                                     <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 3 } />
                                 </div>
@@ -87,12 +87,12 @@ export class SkillsSection extends Component {
                                 </div>
                             </div>
 
-                            <div className='col-start-1 col-end-1 row-star-3 row-end-3 sm:col-start-3 sm:col-end-3 sm:row-star-1 sm:row-end-1 space-y-2 md:space-y-1 mt-16 sm:mt-0 m-auto' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='1500' >
+                            <div className='col-start-1 col-end-1 row-star-3 row-end-3 sm:col-start-3 sm:col-end-3 sm:row-star-1 sm:row-end-1 space-y-2 md:space-y-1 mt-16 sm:mt-0 m-auto' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='500' >
                                 <div className={ `${titleSkills} row-start-1 row-end-1` }>{ Data[5].titleSkills[2] }</div>
                                 <div className='row-start-2 row-end-2 font-semibold text-coolGray-500'>{ Data[5].Language[0] }</div>
                                 <div className='row-start-3 row-end-3 font-semibold text-coolGray-500'>{ Data[5].Language[1] }</div>
                             </div>
-                            <div className='col-start-2 col-end-2 row-star-3 row-end-3 sm:col-start-4 sm:col-end-4 sm:row-star-1 sm:row-end-1 space-y-2 pt-1 mt-25 sm:mt-11 m-auto' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='1500' >
+                            <div className='col-start-2 col-end-2 row-star-3 row-end-3 sm:col-start-4 sm:col-end-4 sm:row-star-1 sm:row-end-1 space-y-2 pt-1 mt-25 sm:mt-11 m-auto' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='500' >
                                 <div className='row-start-2 row-end-2 flex'>
                                     <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 5 } />
                                 </div>
@@ -101,7 +101,7 @@ export class SkillsSection extends Component {
                                 </div>
                             </div>
 
-                            <div className='col-start-1 col-end-1 row-star-4 row-end-4 sm:col-start-3 sm:col-end-3 sm:row-star-2 sm:row-end-2 space-y-2 md:space-y-1 mt-16 sm:mt-0 m-auto' data-aos='fade-up-left' data-aos-duration='1000' data-aos-delay='1500' >
+                            <div className='col-start-1 col-end-1 row-star-4 row-end-4 sm:col-start-3 sm:col-end-3 sm:row-star-2 sm:row-end-2 space-y-2 md:space-y-1 mt-16 sm:mt-0 m-auto' data-aos='fade-up-left' data-aos-duration='1000' data-aos-delay='500' >
                                 <div className={ `${titleSkills} row-start-1 row-end-1` }>{ Data[5].titleSkills[3] }</div>
                                 <div className='row-start-2 row-end-2 font-semibold text-coolGray-500'>{ Data[5].Other[0] }</div>
                                 <div className='row-start-3 row-end-3 font-semibold text-coolGray-500'>{ Data[5].Other[1] }</div>
@@ -110,7 +110,7 @@ export class SkillsSection extends Component {
                                 <div className='row-start-6 row-end-6 font-semibold text-coolGray-500'>{ Data[5].Other[4] }</div>
                                 <div className='row-start-7 row-end-7 font-semibold text-coolGray-500'>{ Data[5].Other[5] }</div>
                             </div>
-                            <div className='col-start-2 col-end-2 row-star-4 row-end-4 sm:col-start-4 sm:col-end-4 sm:row-star-2 sm:row-end-2 space-y-2 pt-1 mt-25 sm:mt-11 m-auto' data-aos='fade-up-left' data-aos-duration='1000' data-aos-delay='1500' >
+                            <div className='col-start-2 col-end-2 row-star-4 row-end-4 sm:col-start-4 sm:col-end-4 sm:row-star-2 sm:row-end-2 space-y-2 pt-1 mt-25 sm:mt-11 m-auto' data-aos='fade-up-left' data-aos-duration='1000' data-aos-delay='500' >
                                 <div className='row-start-4 row-end-4 flex space-x-1 md:space-x-2'>
                                     <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 4 } />
                                 </div>

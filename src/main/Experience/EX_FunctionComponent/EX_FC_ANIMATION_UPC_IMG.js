@@ -9,7 +9,7 @@ const EX_FC_ANIMATION_UPC_IMG = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='2000'>
+            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='750'>
                 <img className='h-16 sm:h-26 lg:h-40' src= { SupportIMG } alt=''/>
             </div>
         </Fragment>

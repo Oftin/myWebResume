@@ -9,7 +9,7 @@ const EX_FC_ANIMATION_UPC_COMPANY = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='1000'>
+            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='250'>
                 { Data[3].company }
             </div>
         </Fragment>

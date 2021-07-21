@@ -9,7 +9,7 @@ const EX_FC_ANIMATION_RW_INFO = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='1500'>
+            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='500'>
                 <div> - { Data[2].description[0] }</div>
                 <div> - { Data[2].description[1] }</div>
                 <div> - { Data[2].description[2] }</div>

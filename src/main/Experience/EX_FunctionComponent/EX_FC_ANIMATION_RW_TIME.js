@@ -9,7 +9,7 @@ const EX_FC_ANIMATION_RW_TIME = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade-right' data-aos-duration='1000' data-aos-delay='2000'>
+            <div data-aos='fade-right' data-aos-duration='1000' data-aos-delay='750'>
                 { Data[2].time }
             </div>
         </Fragment>

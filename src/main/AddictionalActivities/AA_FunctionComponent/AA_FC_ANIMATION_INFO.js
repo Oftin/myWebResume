@@ -9,7 +9,7 @@ const AA_FC_ANIMATION_INFO = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade-left' data-aos-duration='1000' data-aos-delay='1500'>
+            <div data-aos='fade-left' data-aos-duration='1000' data-aos-delay='750'>
                 <div className='flex justify-center'>
                     <div>
                         { Data[4].club[0] }

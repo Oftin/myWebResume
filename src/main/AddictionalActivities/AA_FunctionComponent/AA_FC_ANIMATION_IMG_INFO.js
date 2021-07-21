@@ -9,7 +9,7 @@ const AA_FC_ANIMATION_IMG_INFO = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='1000'>
+            <div data-aos='fade' data-aos-duration='1000' data-aos-delay='500'>
                 <div className='flex justify-center pt-4 font-semibold text-coolGray-600'>{ Data[4].description[0] }</div>
                 <div className='flex justify-center font-semibold text-gray-600'>{ Data[4].description[1] }</div>
             </div>

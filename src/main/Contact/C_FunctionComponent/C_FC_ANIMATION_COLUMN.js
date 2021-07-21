@@ -9,7 +9,7 @@ const C_FC_ANIMATION_COLUMN = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade-up' data-aos-duration='1000' data-aos-delay='2000'>
+            <div data-aos='fade-up' data-aos-duration='1000' data-aos-delay='750'>
                 <img className='cursor-pointer transform scale-50 sm:scale-100 -mt-36 sm:mt-0' src={ Column } alt=''/>
             </div>
         </Fragment>

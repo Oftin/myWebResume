@@ -9,7 +9,7 @@ const ED_FC_ANIMATION_SEPARATOR_LINE = () => {
     }, []);
     return (
         <Fragment>
-            <div data-aos='fade' data-aos-duration='750' data-aos-delay='2500'>
+            <div data-aos='fade' data-aos-duration='750' data-aos-delay='1000'>
                 <img src={ linePNG } alt=''/>
             </div>
         </Fragment>
