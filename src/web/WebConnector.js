@@ -12,7 +12,7 @@ export class WebConnector extends Component {
                         <header className='lg:p-2'>
                             <HeaderConnector />
                         </header>
-                        <main className='p-4 sm:p-10'>
+                        <main className='-mb-96 p-4 sm:p-10'>
                             <MainConnector />
                         </main>
                         <footer>

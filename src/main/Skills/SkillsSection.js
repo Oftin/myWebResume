@@ -65,7 +65,7 @@ export class SkillsSection extends Component {
                                     <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 3 } />
                                 </div>
                                 <div className='row-start-11 row-end-11 flex space-x-1 md:space-x-2'>
-                                    <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 2 } />
+                                    <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 3 } />
                                 </div>
                                 <div className='row-start-12 row-end-12 flex space-x-1 md:space-x-2'>
                                     <S_FC_CREATE_SKILLS_BALLS activeSkillBall={ activeSkillBall } emptySkillBall={ emptySkillBall } valueActive={ 2 } />

@@ -3,7 +3,7 @@
         "id": 0,
         "title": "Education",
         "company": "Silesian University of Technology in Gliwice (Poland)",
-        "time": "2020-03 - now",
+        "time": "2020-03 - 2021-11",
         "description": [
             "Faculty of Mechanical Engineering",
             "Automation and Robotics"
@@ -91,8 +91,8 @@
             "Visual Studio Code",
             "TailwindCSS",
             "C++",
+            "React.js / TypeScript",
             "JavaScript",
-            "React.js",
             "HTML5 / CSS3",
             "SQL",
             "RWD",
@@ -141,5 +141,28 @@
         "id": 8,
         "quort": "I always do what I can't, so I can figure out how to do it",
         "author": "Pablo Picasso"
+    },
+    {
+        "id": 9,
+        "title": "Experience",
+        "company": "LEOCODE - Junior React Developer",
+        "time": "2021-10 - 2022-01",
+        "description": [
+            "Web application development",
+            "Organization of work with prioritization of tasks",
+            "Organization of project meetings"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Experience",
+        "company": "SR Robotics - Technical support",
+        "time": "2021-05 - 2021-05",
+        "description": [
+            "Getting to know the industry of surface and underwater drones",
+            "Support of systems for scanning the bottom of water reservoirs",
+            "Work on specialized equipment",
+            "Designing solutions used at great depths"
+        ]
     }
 ]

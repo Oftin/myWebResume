@@ -4,7 +4,7 @@ import { ExperienceSection } from './Experience/ExperienceSection';
 import { AddictionalActivitiesSection } from './AddictionalActivities/AddictionalActivitiesSection';
 import { SkillsSection } from './Skills/SkillsSection';
 import { InterestsSection } from './Interests/InterestsSection';
-import { ContactSection } from './Contact/ContactSection';
+// import { ContactSection } from './Contact/ContactSection';
 
 export class MainConnector extends Component {
     render() {
@@ -15,7 +15,7 @@ export class MainConnector extends Component {
                 <AddictionalActivitiesSection />
                 <SkillsSection />
                 <InterestsSection />
-                <ContactSection />
+                {/* <ContactSection /> */}
             </Fragment>
         )
     }
